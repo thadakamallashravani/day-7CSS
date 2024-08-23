@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: white;
+        }
+        .container1{
+            position:relative;
+        }
+        .e1{
+            position: absolute;
+            left: 50%;
+            bottom: 45%;
+            font-weight: bold;
+        }
+        ul{
+            float: right;
+        }
+        li{
+            display: inline;
+            padding: 6px;
+        }
+        .container2{
+            position: relative;
+            margin: 30px;
+            display: inline-block;
+        }
+        .e2{
+        position: absolute;
+        color: aliceblue;
+        background-color: black;
+        bottom: 96%;
+        }
+        .container3{
+            position: relative;
+            margin: 30px;
+            display: inline-block;
+        }
+        .e3{
+        position: absolute;
+        color: aliceblue;
+        background-color: black;
+        bottom: 90%;
+    
+        }
+        .container4{
+            position: relative;
+            margin: 30px;
+            display: inline-block;
+        }
+        .e4{
+            position: absolute;
+            color: aliceblue;
+            background-color: black;
+            bottom: 80%;
+        }
+        .container5{
+            position: relative;
+            margin: 32px;
+            display: inline-block;
+        }
+        .e5{
+        position: absolute;
+        color: aliceblue;
+        background-color: black;
+        bottom: 92%;
+        }
+        @media only screen and (width<750px){
+            .container{
+                grid-template-columns: auto auto;
+             }
+        }
+        @media only screen and(width560){
+            .container{
+                grid-template-columns: auto;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>BR Architecture</h2>
+        <ul>
+            <li> Projects</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div class="container">
+        <div class="container1">
+            <img src="https://www.w3schools.com/w3images/architect.jpg">
+            <div class="e1">BR Architecture</div>
+        </div>
+        <h2>Projects</h2>
+    <div class="container2">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" width="300px">
+        <div class="e2">Summer House</div>
+    </div>
+    <div class="container3">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" width="300px">
+        <div class="e3">Brick House</div>
+    </div>
+    <div class="container4">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" width="300px">
+        <div class="e4">Summer House</div>
+        <div class="container5">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="300px">
+            <div class="e5">Brick House</div>
+            </div>
+        </header>
+    </body>
+</body>
+</html>
